@@ -84,7 +84,7 @@ $VagrantTmpDir = [System.IO.Path]::Combine(
 [System.IO.Directory]::CreateDirectory($VagrantTmpDir) | Out-Null
 Write-Host "Vagrant temp dir: $($VagrantTmpDir)"
 
-$VagrantSourceURL = "https://github.com/mitchellh/vagrant/archive/$($VagrantRevision).zip"
+$VagrantSourceURL = "https://github.com/windperson/vagrant/archive/$($VagrantRevision).zip"
 $VagrantDest      = "$($VagrantTmpDir)\vagrant.zip"
 
 # Download

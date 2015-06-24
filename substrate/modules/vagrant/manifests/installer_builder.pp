@@ -26,7 +26,7 @@ class vagrant::installer_builder(
     fail("You must set an install_dir.")
   }
 
-  $source_url = "https://github.com/mitchellh/vagrant-installers/archive/${revision}.tar.gz"
+  $source_url = "https://github.com/windperson/vagrant-installers/archive/${revision}.tar.gz"
   $source_dir_path = "${file_cache_dir}/vagrant-installers-${revision}"
   $source_package_path = "${file_cache_dir}/vagrant-installers-${revision}.tar.gz"
 

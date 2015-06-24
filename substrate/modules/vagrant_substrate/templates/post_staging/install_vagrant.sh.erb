@@ -25,7 +25,7 @@ TMP_DIR=$(mktemp -d tmp.XXXXXXXXX)
 pushd $TMP_DIR
 
 # Download Vagrant and extract
-SOURCE_URL="https://github.com/mitchellh/vagrant/archive/${VAGRANT_REV}.tar.gz"
+SOURCE_URL="https://github.com/windperson/vagrant/archive/${VAGRANT_REV}.tar.gz"
 wget --output-document=vagrant.tar.gz ${SOURCE_URL}
 tar xvzf vagrant.tar.gz
 rm vagrant.tar.gz
