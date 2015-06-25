@@ -21,6 +21,8 @@ since March, 2012.
 
 ## Prerequisites
 
+* [Puppet](https://downloads.puppetlabs.com/) v3.x
+
 ### Linux (Ubuntu, CentOS):
 
 * [fpm](https://github.com/jordansissel/fpm)
@@ -35,4 +37,5 @@ since March, 2012.
 
 ### Windows
 
-* [WiX](http://wixtoolset.org/)
+* [WiX](http://wixtoolset.org/) , be sure to add its *bin* folder to **PATH** environment variable
+* [Git for windows](https://msysgit.github.io/)
